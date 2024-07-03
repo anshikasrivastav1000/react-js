@@ -1,5 +1,5 @@
 import reactdom from 'react-dom/client'
-import BasicRouting from './components/reactRouterV6/BasicRouting'
 
+import App from './components/component/App'
 const reactroot = reactdom.createRoot(document.getElementById('root'));
-reactroot.render(<BasicRouting/>)
+reactroot.render(<App/>)
