@@ -1,5 +1,6 @@
 import reactdom from 'react-dom/client'
+import Form from './components/component/Form';
 
-import App from './components/component/App'
 const reactroot = reactdom.createRoot(document.getElementById('root'));
-reactroot.render(<App/>)
+
+reactroot.render(<Form/>)
