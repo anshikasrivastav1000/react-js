@@ -1,6 +1,7 @@
 import reactdom from 'react-dom/client'
-import Form from './components/component/Form';
+
+import Here from './components/component/Here'
 
 const reactroot = reactdom.createRoot(document.getElementById('root'));
 
-reactroot.render(<Form/>)
+reactroot.render(<Here/>)
